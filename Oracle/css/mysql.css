@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #003b4d;
+}
+
+h1 {
+    background-color: #ED3237;
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+table {
+    font-family: 'Courier New', Courier, monospace;
+    width: 80%;
+    margin: auto;
+}
+
+th {
+    background-color: rgb(219, 214, 214);
+    color: black;  
+    padding: 5px;
+}
+
+tr {
+    color: #003b4d;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color:#f2f2f2 ;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(219, 214, 214);
+}
+
+.updateButton {
+    color: white;
+    background-color: #ED3237;
+    border: none;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: block;
+    margin: auto;
+    list-style-type: none;
+}
+
+.box1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box1 > li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.box1 > li > a > button {
+    color: white;
+    background-color: #ED3237;
+    border: none;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: block;
+    margin: auto;
+    text-decoration: none;
+}
+
+.GoHome {
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 30%;
+    font-size: 300%;
+}
