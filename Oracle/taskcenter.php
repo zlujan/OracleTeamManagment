@@ -33,9 +33,20 @@
         echo "<tr>";
     }
     echo "</table>";
+    
   
            
 ?>
+
+<form action="DeleteTask.php" method="post">
+    <?php
+    echo "Task_ID to be deleted."
+    ?>
+    <br>
+<td> <input type="text" name="Task_ID" value= "" size="10px" </td>
+<input type="submit" value="Delete!">
+        </form>
+
           </div>
                  <!-- New task card/ entry-->
           <div class="card" >
