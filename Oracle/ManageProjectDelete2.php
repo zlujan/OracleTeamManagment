@@ -51,7 +51,7 @@
 
     ?>
 
-<form action="Delete.php" method="post">
+<form action="Delete2.php" method="post">
     <?php
     echo "Table_ID to be deleted."
     ?>

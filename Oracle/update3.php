@@ -53,7 +53,7 @@
 
 <br>
 <br>
-<a href="ManageProjectRead.php"><button class= "GoHome"type="button">Return to project!</button></a>
+<a href="ManageProjectRead3.php"><button class= "GoHome"type="button">Return to project!</button></a>
 
 </body>
 </html>

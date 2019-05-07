@@ -42,11 +42,9 @@
         $sql = "SELECT * FROM project1";
         $result = mysqli_query($con, $sql);
 
-        $counter = 0;
         while ($row = mysqli_fetch_assoc($result)) { 
             echo "<tr>";
-            // echo "<td>" . "<label for='Table_ID[]' value=" . $row['Table_ID'] . " size='10px' style='text-align: center'>" . "</td>"; 
-            echo "<td>" . $row['Table_ID'] . "<input type='hidden' name='Table_ID[]' value=" . $row['Table_ID'] . " size='10px' style='text-align: center'>" . "</td>"; 
+            echo "<td>" . "<input type='hidden' name='Table_ID[]' value=" . $row['Table_ID'] . " size='10px' style='text-align: center'>" . "</td>"; 
             echo "<td>" . "<input type='text' name='Contributions[]' value=" . $row['Contributions'] . " size='10px' style='text-align: center'>" . "</td>"; 
             echo "<td>" . "<input type='text' name='KmArticles[]' value=" . $row['KmArticles'] . " size='10px' style='text-align: center'>" . "</td>"; 
             echo "<td>" . "<input type='text' name='ODMCEngagements[]' value=" . $row['ODMCEngagements'] . " size='10px' style='text-align: center'>" . "</td>"; 
@@ -57,7 +55,6 @@
             echo "<td>" . "<input type='text' name='AccountSRNRD[]' value=" . $row['AccountSRNRD'] . " size='10px' style='text-align: center'>" . "</td>"; 
             echo "<td>" . "<input type='text' name='CriticalWorkSRSNRD[]' value=" . $row['CriticalWorkSRSNRD'] . " size='10px' style='text-align: center'>" . "</td>";  
             echo "</tr>";
-            $counter = $counter + 1;
         }
         echo "</table>";
   

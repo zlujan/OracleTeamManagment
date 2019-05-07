@@ -21,7 +21,7 @@
   
     <br><br>
 
-    <form action='update.php' method='post'>
+    <form action='update3.php' method='post'>
     <!-- Creates Table Headers -->
     <table>
         <tr>

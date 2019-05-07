@@ -37,7 +37,7 @@
     
 
 ?>
-<form action="Insert.php" method="post">
+<form action="Insert3.php" method="post">
 <td> <input type="text" name="Contributions" value= "" size="10px" </td>
 <td> <input type="text" name="KmArticles" value= "" size="10px" </td>
 <td> <input type="text" name="ODMCEngagements" value= "" size="10px" </td>
